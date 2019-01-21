@@ -16,7 +16,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         
-        
+        //SHOW CURRENT LOCATION ON GOOGLE MAP
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
